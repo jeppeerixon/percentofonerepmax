@@ -1,0 +1,52 @@
+body {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	background-color: #EAEAEA;
+}
+
+.boldHundra {
+    font-weight: bold;
+}
+
+#logo {
+    width: 275px;
+    height: auto;
+    float: center;
+}
+
+label {
+    font-size: 1.25rem;
+}
+
+input, button {
+    float: right;
+}
+
+table {
+    width: 100%;
+}
+
+tr:nth-child(1) {
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    font-size: 1.25rem;
+    border-bottom: 1px solid #ddd;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+    padding-right: 170px;
+}
+
+td:nth-child(2) {
+    padding-left: 10px;
+    padding-bottom: 7.5px;
+}
